@@ -34,27 +34,32 @@ header {
         //logo
 
         //nav
-        li {
-            font-size: 12px;
-            font-weight: 600;
-            list-style: none;
-            margin: 0 .9375rem 0 .9375rem;
-            align-items: center;
-            padding: 3.125rem 0 2.8125rem 0;
-            border-bottom: 5px solid white;
+        ul {
+            margin-bottom: 0;
 
-            &:hover {
-                cursor: pointer;
-                border-bottom: 5px solid #0282f9;
+            li {
+                font-size: 12px;
+                font-weight: 600;
+                list-style: none;
+                margin: 0 .9375rem 0 .9375rem;
+                align-items: center;
+                padding: 3.125rem 0 2.8125rem 0;
+                border-bottom: 5px solid white;
+
+                &:hover {
+                    cursor: pointer;
+                    border-bottom: 5px solid #0282f9;
+
+                    a {
+                        color: #0282f9;
+                    }
+                }
 
                 a {
-                    color: #0282f9;
+                    color: black;
                 }
             }
 
-            a {
-                color: black;
-            }
         }
 
         //nav

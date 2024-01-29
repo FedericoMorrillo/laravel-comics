@@ -11,7 +11,7 @@
                     ['name' => 'NEWS'],
                     ['name' => 'SHOP']
                 ];
-            @endphp
+@endphp
 
 <header>
 

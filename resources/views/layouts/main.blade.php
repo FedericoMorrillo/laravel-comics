@@ -10,6 +10,8 @@
 
 <body>
     @include('shared.header')
+    
+    @include('shared.footer')
 </body>
 
 </html>
