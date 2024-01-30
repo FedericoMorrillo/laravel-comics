@@ -1,0 +1,81 @@
+main {
+    color: white;
+    background-color: #1c1c1c;
+    position: relative;
+
+
+
+    //main content
+    .container {
+        max-width: 81.25rem;
+        width: 80%;
+        margin: 0 auto;
+        align-items: center;
+
+        //current series
+        .tag-series {
+            padding: .625rem 1.875rem;
+            position: absolute;
+            top: -1.25rem;
+            cursor: default;
+            background-color: #0282f9;
+            text-align: center;
+        }
+
+        //current series
+    }
+
+    //load more
+    .add-btn {
+        margin: 1.25rem 0;
+        padding: .625rem 3.75rem;
+        background-color: #0282f9;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+    //load more
+
+
+    //main content
+
+    //info bar
+    .info-bar {
+        padding: 50px 0;
+        font-size: 12px;
+        background-color: #0282f9;
+        justify-content: center;
+        margin: 0 auto;
+        position: relative;
+        z-index: 1;
+
+        //button
+        .btn {
+            background-color: transparent;
+            border: none;
+            color: white;
+            align-items: center;
+            margin-right: 4.375rem;
+            cursor: pointer;
+
+            .icon {
+                width: 3.75rem;
+                height: 3.125rem;
+                padding-right: .625rem;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                }
+            }
+        }
+
+        //button
+
+    }
+
+    //info bar
+
+}

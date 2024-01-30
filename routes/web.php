@@ -15,5 +15,6 @@ use League\CommonMark\Node\Block\Document;
 */
 
 Route::get('/', function () {
-    return view('home');
+    $data = config('comics');
+    return view('home', compact('data'));
 });
